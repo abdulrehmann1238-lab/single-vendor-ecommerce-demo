@@ -1,0 +1,58 @@
+import { Category } from '../types';
+
+export const CATEGORIES: Category[] = [
+  {
+    id: 'cat-electronics',
+    name: 'Electronics & Audio',
+    slug: 'electronics',
+    description: 'Precision engineering, acoustic mastery, and seamless digital accessories.',
+    image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1200&q=80',
+    itemCount: 8,
+    featured: true,
+  },
+  {
+    id: 'cat-home-living',
+    name: 'Home & Living',
+    slug: 'home-living',
+    description: 'Artisanal ceramics, tactile textiles, and architectural lighting for serene interiors.',
+    image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80',
+    itemCount: 8,
+    featured: true,
+  },
+  {
+    id: 'cat-fashion',
+    name: 'Apparel & Leather',
+    slug: 'fashion',
+    description: 'Timeless silhouettes, vegetable-tanned leathers, and tailored natural textiles.',
+    image: 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1200&q=80',
+    itemCount: 6,
+    featured: true,
+  },
+  {
+    id: 'cat-beauty',
+    name: 'Beauty & Skincare',
+    slug: 'beauty',
+    description: 'Cold-pressed botanicals, biocompatible actives, and restorative self-care rituals.',
+    image: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=1200&q=80',
+    itemCount: 6,
+    featured: true,
+  },
+  {
+    id: 'cat-sports-outdoors',
+    name: 'Active & Outdoors',
+    slug: 'sports-outdoors',
+    description: 'Durable natural rubber, stainless steel gear, and lightweight technical equipment.',
+    image: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1200&q=80',
+    itemCount: 6,
+    featured: true,
+  },
+  {
+    id: 'cat-accessories',
+    name: 'Objects & Accessories',
+    slug: 'accessories',
+    description: 'Handcrafted acetate eyewear, brass hardware, and thoughtful everyday carry.',
+    image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1200&q=80',
+    itemCount: 4,
+    featured: true,
+  },
+];
